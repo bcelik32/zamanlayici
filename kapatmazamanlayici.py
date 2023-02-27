@@ -128,7 +128,6 @@ Belirtiniz""")
     os.system(f"shutdown /s /t {sonformul}")
 
 def durdur():
-
     os.system("shutdown -a")
     surebelirtiniz.config(text=f"""Oturum Kapatma İptal
     Edildi""")
@@ -214,48 +213,15 @@ dakikagir2.place(x=287, y=41,height=22,width=17)
 createdby=Label(pencere)
 createdby.config(text="Created By 132",font=("Lucida Calligraphy",11))
 createdby.place(x=300,y=153)
-# ikin4=Label(pencere)
-# ikin4.pack()
-# ikin4.place(x=302,y=36)
-# ikin4.config(text=':', font=("Vertana",15))
-
-# saniye2=StringVar()
-# saniye2.set("0")
-# saniyegir2=Entry(pencere,textvariable=saniye2)
-# saniyegir2.pack()
-# saniyegir2.place(x=313, y=41,height=22,width=17)
 
 sayacbaslat=Button(pencere)
 sayacbaslat.pack()
 sayacbaslat.place(x=310,y= 40,width=90,height=22)
 sayacbaslat.config(text='Sayaç Başlat',font=("Vertana",9),command=sayaclikapat)
-# suregir=Entry(pencere)
-# suregir.pack()
-# suregir.place(x=200, y=99,height=22,width=120)
-
 
 surebelirtiniz=Label(pencere)
 surebelirtiniz.pack
 surebelirtiniz.place(x=240,y=107)
 surebelirtiniz.config(text=f'',font=("Vertana", 12))
-
-# formul2=suregir.get()
-# formul2cevir=int(formul2)                                Kalan Süre Ayarlanamadı.
-# for i in range(formul2cevir):                            Sebep:formul2 değişgeni int'e çevrilemedi.
-#     formul3=formul2cevir-1
-#     sleep(60)
-
-# if formul3<60 and formul3>58:
-#     kalansure.config(text="59 Dakika")
-
-        # saniyecagir=saniyegir.get()
-        # saniyedonustur2=int(saniyecagir)
-        # saniyedonustur2-=1
-        # sleep(1)
-        # surebelirtiniz.config(text=f"""Oturumunuz {saatdonustur}:{dakikadonusmus}:{saniyedonsumus}
-        # Sonra Kapatilacaktir""")
-
-    # if simdikisaatsss[0]==saat2cagir[0] and simdikisaatsss[1]==saat2cagir[1] and simdikisaatsss[3]==dakika2cagir[0] and simdikisaatsss[4]==dakika2cagir[1] and simdikisaatsss[6]==saniye2cagir[0] and simdikisaatsss[0]==saniye2cagir[1]:
-    #     os.system("shutdown /s /t 0")
 
 mainloop()
