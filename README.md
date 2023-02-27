@@ -6,7 +6,7 @@ Kapatma Zamanlayıcısı
 Not: Program 00'dan 09'a kadar Girilen Saatlerde(sadece sağ üstteki iki kutu)Çalışmaz. Bunun nedeni Python'daki strftime komutunda tek haneli saatleri yazarken başına 0 koymamasıdır(05:30 yerine 5:30 gibi).  
 
 Shutdown Timer
-1) Move the ShutdownTimer.exe Somewhere Inside the Computer.
+1) Move the shutdowntimer.exe Somewhere Inside the Computer.
 2) Move the close2.ico File to the Same Location.
 3) Create a Shortcut for the Exe.
 4) Run the Shortcut.
