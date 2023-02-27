@@ -1,8 +1,8 @@
-Kapatma Zamanlayıcı 
-1)kapatmazamanlayici.exe'yi Bilgisayarınızda Bir Yere Taşıyın.
-2)kapat2.ico Dosyasınıda Aynı Konuma Taşıyın.
-3)Exe İçin Bir Kısayol Oluşturun.
-Not:Program 00'dan 09'a Kadar Çalışmamaktadır. Bu Pythondaki strftime komutundaki çıktının tek haneli saatlerde başına 0 koymamasındandır.
+Kapatma Zamanlayıcısı
+1) ShutdownTimer.exe'yi Bilgisayarınızda Bir Yere Taşıyın.
+2) thekapa2.ico dosyasını aynı konuma taşıyın.
+3) Exe için bir Kısayol oluşturun.
+Not: Program 00'dan 09'a kadar çalışmaz. Bunun nedeni Python'daki strftime komutunun çıktısının tek haneli saatlerden önce gelmemesidir.
 
 Shutdown Timer
 1) Move ShutdownTimer.exe Somewhere On Your Computer.
